@@ -69,6 +69,15 @@ export default function Layout({ children, meta: pageMeta }) {
             </a>
           </Link>
           <ul className="flex justify-between items-center space-x-4">
+            <li className="underline">
+              <Link href="example">Example</Link>
+            </li>
+            <li className="underline">
+              <Link href="another-example">Another Example</Link>
+            </li>
+            <li className="underline">
+              <Link href="last-example">Last Example</Link>
+            </li>
             <li>
               <div className="inline-block relative w-32">
                 <select
